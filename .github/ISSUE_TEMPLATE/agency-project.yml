@@ -1,0 +1,48 @@
+name: Agency project
+description: Define a small build that produces observable evidence
+title: "Project: "
+labels: ["learning-project"]
+body:
+  - type: textarea
+    id: capability
+    attributes:
+      label: Capability statement
+      description: What do you want to become able to do, for whom, and why?
+      placeholder: I want to become able to...
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Current evidence
+      description: What have you already built, tested, adapted, debugged, or taught?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Small useful outcome
+      description: What will exist when this project is done?
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints and safety boundaries
+      description: Include time, budget, technology, privacy, accessibility, and anything explicitly out of scope.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: How will you verify it?
+      description: Include a normal case, an edge case, and a failure case.
+    validations:
+      required: true
+  - type: textarea
+    id: teachback
+    attributes:
+      label: Teach-back plan
+      description: How will you explain or demonstrate the reusable idea?
+    validations:
+      required: true
