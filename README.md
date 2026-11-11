@@ -39,6 +39,8 @@ AI may assist at every stage. It may not silently erase the learner's judgment.
 - Facilitator: run [the 75-minute AI agency workshop](workshops/01-unlock-ai-agency.md).
 - Writer/speaker: use [From AI knowledge to AI agency](docs/FROM_KNOWLEDGE_TO_AGENCY.md) as the design rationale.
 
+The coaching standard works with repository-aware ChatGPT/Codex agents, Claude, Gemini CLI, and GitHub Copilot. Learners can also paste the tool-neutral prompt into any capable chat assistant.
+
 ## What this is—and is not
 
 This is for someone who says:
